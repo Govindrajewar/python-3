@@ -1,0 +1,7 @@
+class vehicle():
+    def __init__(self,cost,milage):
+        self.cost = cost
+        self.milage = milage
+    def show_vehicle_details(self):
+        print("cost of vehicle is ",self.cost,"rs")
+        print("milage of vehicle is ",self.milage,"kmpl")    
